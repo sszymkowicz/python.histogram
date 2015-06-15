@@ -22,7 +22,7 @@ def histogram():
     plt.show()
 
 
-def edges():
+def edges():            # Roberts cross
     out_img = Image.new("L", f.size, None)
     img_data = f.load()
     out_data = out_img.load()
